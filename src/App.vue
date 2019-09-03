@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" class="o-wrapper">
     <div id="nav">
       <router-link to="/">Diary</router-link> |
       <router-link to="/about">Backlog</router-link> |
@@ -9,6 +9,4 @@
   </div>
 </template>
 
-<style lang="scss" src="../src/assets/styles/main.scss">
-
-</style>
+<style lang="scss" src="../src/assets/styles/main.scss" />

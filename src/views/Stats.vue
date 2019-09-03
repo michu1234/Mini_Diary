@@ -4,11 +4,7 @@
 
 <script>
 export default {
-  name: 'stats'
+  name: 'stats',
+};
 
-}
 </script>
-
-<style>
-
-</style>
