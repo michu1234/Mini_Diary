@@ -23,5 +23,10 @@ export default new Router({
       name: 'stats',
       component: () => import(/* webpackChunkName: "stats" */ './views/Stats.vue'),
     },
+    {
+      path: '/pattern',
+      name: 'pattern',
+      component: () => import(/* webpackChunkName: "pattern" */ './views/Pattern.vue'),
+    },
   ],
 });
