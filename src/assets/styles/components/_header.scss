@@ -4,8 +4,14 @@
 
 .c-header {
   font-size: 1.6rem;
+  display: flex;
+  justify-content: flex-end;
 
   height: 30px;
   margin-bottom: 20px;
   padding-top: 10px;
+
+  &__item {
+    padding: 0 10px;
+  }
 }
